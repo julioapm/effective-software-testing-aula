@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 // this test suite is incomplete. Do proper specification-based testing here!
-public class CountWordsTest {
+class CountWordsTest {
 
     @Test
     void t1() {
@@ -16,7 +16,7 @@ public class CountWordsTest {
     @Test
     void t2() {
         int words = new CountWords().count("dog cat");
-        assertThat(words).isEqualTo(0);
+        assertThat(words).isZero();
     }
 
     @Test
